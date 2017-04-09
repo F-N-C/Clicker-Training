@@ -1,11 +1,11 @@
-var cookies = 0;
+var cookies = 1;
 
 function cookieClick(number){
   cookies = cookies + number;
   document.getElementById("cookies").innerHTML = cookies;
 };
 
-var cursors = 0;
+var cursors = 11;
 
 function buyCursor(){
   var cursorCost = Math.floor(10*Math.pow(1.1,cursors));
