@@ -1,5 +1,6 @@
 var cookies = 0;
 var cursors = 0:
+var number = 1;
 
 function cookieClick(number){
   cookies = cookies + number;
