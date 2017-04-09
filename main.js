@@ -1,9 +1,8 @@
 var cookies = 0;
 var cursors = 0:
-var number = 1;
 
-function cookieClick(number){
-  cookies = cookies + number;
+function cookieClick(1){
+  cookies = cookies + 1;
   document.getElementById("cookies").innerHTML = cookies;
 }
 
